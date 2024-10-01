@@ -29,3 +29,54 @@ h4 {
     padding-right: 20px;
     padding-bottom: 40px;
 } 
+
+.nobox {
+    margin: 20px;
+    color: aliceblue;
+    background-color: #000;
+    width: 400px;
+    padding: 50px;
+}
+
+.borderbox {
+    margin: 20px;
+    font-size: 40px;
+    color: black;
+    background-color: grey;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+.borda1 {
+    border: solid 2px green;
+    padding: 10px;
+    margin: 10px;
+}
+
+.borda2 {
+    border:dotted 5px red ;
+    padding: 10px;
+    margin: 10px;
+}
+
+body{
+    padding-bottom: 500px;
+}
+
+.borderright {
+    border-right: 2px solid green;
+    background-color: #000;
+    color: antiquewhite;
+    padding: 20px;
+    width: 300px;
+}
+
+.border-bottom {
+    border-bottom: 3px solid violet;
+    background-color: #000;
+    color: antiquewhite;
+    padding: 20px;
+    width: 300px;
+} 
