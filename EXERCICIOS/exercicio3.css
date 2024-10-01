@@ -1,0 +1,19 @@
+body{
+    padding-bottom: 400px;
+}
+
+#fullbox {
+    margin: 10px 10px 10px 10px;
+    color: aliceblue;
+    border: 5px solid green;
+    padding: 20px;
+    background-color: black;
+    outline: 5px solid yellow;
+}
+
+.h2 {
+    background-color: aquamarine;
+    color: black;
+    padding: 10px;
+    border: 2px dotted gold;
+}
