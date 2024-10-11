@@ -1,6 +1,59 @@
-h1{
-    color: red;
+html{
+    background-color: rgb(246, 228, 198);
+    font-family: Arial, Helvetica, sans-serif;
+
 }
+
+.container{
+    max-width: 1100px;
+    background-color: rgb(218, 196, 164);
+    margin: 10px auto;
+    padding: 5px;
+    position: relative;
+
+}
+
 figcaption{
     font-size: 10px;
+}
+
+.cabecalho{
+    text-align: center;
+}
+
+.featured-image{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.image1{
+    height: 300px;
+    width: 300px;
+}
+
+.biografia-container{
+    margin: 25px 0;
+    padding: 25px 0;
+    border-top: 1px dashed #6f6e6e;
+    border-bottom: 1px dashed #706f6f;
+}
+
+.quotes-container {
+    background-color: rgb(207, 208, 209);
+    padding: 30px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p {
+    font-style: italic;
+}
+
+.curiosities-container{
+    margin: 25px 0;
+    padding: 25px 0;
+
 }
