@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!--Primeiro Formulario-->
+    <!--Atributos do Form-->
+    <h2>Formulário</h2>
+    <form action="register.js" method="post">
+        <div>
+            <label>Nome:</label>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <label>Idade:</label>
+            <input type="text" name="age">
+        </div>
+        <!--Select-->
+        <div class="select">
+            <label for="profissão">Selecione sua profissão:</label>
+            <select name="profissão">
+                <option value="programador">Desenvolvedor</option>
+                <option value="back-end">Back-end</option>
+            </select>
+        </div>   
+        <!--Selected-->
+        <div>
+            <label for="contract">Você leu os termos do contrato?</label>
+            <select name="contract">
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+        </div>
+        <!--Multiple select-->
+        <div>
+            <label for="objetivos">Quais vagas você aceitaria:</label>
+            <select name="objetivos" multiple>
+                <option value="front-end">Front-end</option>
+                <option value="back-end" selected>Back-end</option>
+                <option value="tester">Quality assurance</option>
+                <option value="owner">Product owner</option>
+            </select>
+        </div>
+
+        <!--ENVIAR/SUBMIT-->
+        <input type="submit">
+    </form>
+</body>
+</html>
